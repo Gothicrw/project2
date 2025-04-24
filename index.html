@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regie's Bites Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="restaurant-styles.css"> </head>
+<body>
+
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Regie's Bites</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="jumbotron jumbotron-fluid bg-image text-center text-white d-flex align-items-center" style="background-image: url('restaurant.jpg'); background-size: cover; background-position: center; min-height: 500px;">
+        <div class="container">
+            <h1 class="display-4">Savor the Flavor</h1>
+            <p class="lead">Experience our exquisite dishes.</p>
+            <a class="btn btn-primary btn-lg" href="#menu" role="button">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="container py-5">
+        <h2 class="text-center mb-4">Our Delicious Menu</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="appetizer.jpg" class="card-img-top" alt="Menu Item 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Trio of Dips.</h5>
+                        <p class="card-text">An assortment of flavorful dips served with toasted bread, crispy chips, and crudités.</p>
+                        <p class="card-text"><small class="text-muted">Ksh 2,000</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="main course.jpg" class="card-img-top" alt="Menu Item 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Pesto Perfection.</h5>
+                        <p class="card-text">A vibrant plate of spaghetti coated in fragrant basil pesto, adorned with roasted cherry tomatoes and a side of crusty bread.</p>
+                        <p class="card-text"><small class="text-muted">Ksh 5,000</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="dessert.jpg" class="card-img-top" alt="Menu Item 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Pistachio Dream Tiramisu
+                        </h5>
+                        <p class="card-text">Layers of coffee-soaked ladyfingers and light pistachio cream, dusted with rich cocoa.</p>
+                        <p class="card-text"><small class="text-muted">Ksh 2,575</small></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="about" class="container py-5">
+        <h2 class="text-center mb-4">About Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="interior 1.jpg" alt="Restaurant Interior" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <p class="lead">Regie's Bites offers a warm and inviting atmosphere where fresh, quality ingredients shine. Our menu features a delightful array of thoughtfully crafted dishes, from vibrant appetizers perfect for sharing to satisfying mains and tempting desserts. Whether you're seeking a casual lunch, a relaxed dinner, or simply a place to enjoy good company and delicious food, Regie's Bites promises a memorable culinary experience. We take pride in our friendly service and aim to make every guest feel right at home.</p>
+                
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3 text-center">
+        <div class="container">
+            <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+            <div>
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-square fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter-square fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram-square fa-lg"></i></a>
+                </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script> </body>
+</html>
